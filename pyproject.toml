@@ -1,0 +1,16 @@
+[tool.poetry]
+name = "python-clean-archi"
+version = "0.1.0"
+description = "박용규 <herzblue@gmail.com>"
+authors = ["박용규 <herzblue@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "3.10.14"
+ipykernel = "^6.29.5"
+black = "^24.4.2"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
