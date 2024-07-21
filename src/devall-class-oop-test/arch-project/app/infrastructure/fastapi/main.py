@@ -17,10 +17,17 @@ def init_db():
     db.connect()
     UserModel.create_table()
 
+app = create_app()
+
 if __name__ == "__main__":
     init_db()
-    app = create_app()
-    uvicorn.run(app, host="0.0.0.0", port=8000)
     
-    # PYTHONPATH=. python src/devall-class-oop-test/arch-project/app/infrastructure/fastapi/main.py
     
+    uvicorn.run(
+        "app.infrastructure.fastapi.main:app", host="0.0.0.0", port=8000, reload=True
+        )
+    
+    # cd /mnt/c/vswork/_python_clean_code/src/devall-class-oop-test/arch-project
+    # PYTHONPATH=. python app/infrastructure/fastapi/main.py
+    # /mnt/c/vswork/_python_clean_code/src/devall-class-oop-test/arch-project/app/infrastructure/fastapi/main.py
+    # '/mnt/c/vswork/_python_clean_code/src/devall-class-oop-test/arch-project/arch-project/app/infrastructure/fastapi/main.py'
