@@ -6,3 +6,6 @@
 # poetry 
 poetry.lock
 pojson.lock
+
+# docs - pdf 파일
+*.pdf

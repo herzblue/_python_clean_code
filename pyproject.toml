@@ -1,8 +1,8 @@
 [tool.poetry]
 name = "python-clean-archi"
 version = "0.1.0"
-description = "박용규 <herzblue@gmail.com>"
-authors = ["박용규 <herzblue@gmail.com>"]
+description = "herzblue <herzblue@gmail.com>"
+authors = ["herzblue <herzblue@gmail.com>"]
 readme = "README.md"
 
 [tool.poetry.dependencies]
