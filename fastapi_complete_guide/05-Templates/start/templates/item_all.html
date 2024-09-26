@@ -1,0 +1,13 @@
+<html>
+<head>
+    <title>Item Details</title>
+</head>
+<body>
+    <!-- 반복문: for-in-endfor -->
+    {% for item in all_items %}
+    <!-- 반복되는 구문 -->
+    <h3> item name: {{ item.name }} / item price: {{ item.price }} </h3>
+    <!-- 반복끝 -->
+    {% endfor %}
+</body>
+</html>
