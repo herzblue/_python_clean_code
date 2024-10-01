@@ -1,17 +1,20 @@
 [tool.poetry]
 name = "python-clean-code"
 version = "0.1.0"
-description = "박용규 <herzblue@gmail.com>"
-authors = ["박용규 <herzblue@gmail.com>"]
-readme = "readme.md"
+description = "herzblue <herzblue@gmail.com>"
+authors = ["herzblue <herzblue@gmail.com>"]
+readme = "README.md"
 
 [tool.poetry.dependencies]
-python = "3.10.14"
+python = "3.11.09"
 ipykernel = "^6.29.5"
 black = "^24.4.2"
 fastapi = "^0.111.0"
 peewee = "^3.17.6"
 pytest = "^8.3.1"
+binarytree = "^6.5.1"
+graphviz = "^0.20.3"
+uvicorn = "^0.30.6"
 
 
 [build-system]
