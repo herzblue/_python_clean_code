@@ -1,9 +1,9 @@
 [tool.poetry]
-name = "python-clean-archi"
+name = "python-clean-code"
 version = "0.1.0"
 description = "박용규 <herzblue@gmail.com>"
 authors = ["박용규 <herzblue@gmail.com>"]
-readme = "README.md"
+readme = "readme.md"
 
 [tool.poetry.dependencies]
 python = "3.10.14"
